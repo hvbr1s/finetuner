@@ -28,7 +28,7 @@ def create_training_file(file_path, retry_interval=5):
 
 # Create a fine-tuning job and return its job_id
 # The function retries every `retry_interval` seconds in case of an error
-def create_fine_tuning_job(file_id, model="gpt-3.5-turbo", retry_interval=30):
+def create_fine_tuning_job(file_id, model="gpt-3.5-turbo-1106", retry_interval=30):
     while True:
         try:
             # Create a fine-tuning job
