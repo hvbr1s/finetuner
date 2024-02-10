@@ -1,12 +1,10 @@
-# We start by importing the required packages
-
 import json
 import os
 import tiktoken
 import numpy as np
 from collections import defaultdict
 
-# Next, we specify the data path and open the JSONL file
+# We start by specifying the data path and open the JSONL file
 
 data_path = "primed_data.jsonl"
 
